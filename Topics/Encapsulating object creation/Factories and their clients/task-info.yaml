@@ -1,0 +1,27 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: Factories protect the client code from changes related to an extension of
+    a class hierarchy.
+- text: A client cannot create several simple factories.
+- text: A factory can be used by multiple clients.
+- text: A static method returning new instances of a class cannot represent a factory.
+- text: A client invokes a factory to create an object.
+- text: A client encapsulates a logic for creating and using objects.
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3327#comment
+status: Unchecked
+record: -1
